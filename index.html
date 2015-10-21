@@ -1,0 +1,72 @@
+<html>
+	<head>
+		<title>This is a new page</title>
+	</head>
+	<body>
+		<style>
+			body {
+				padding: 0px;
+				margin: 0px;
+			}
+			h1 {
+				color: red;
+			}
+			h5 {
+				color: blue;
+			}
+			div#nav h5 {
+				color: purple;
+			}
+			#nav,
+			#content,
+			#sidebar,
+			#footer {
+				padding: 15px;
+			}
+			#nav {
+				background-color: #bbb;
+				display: block;
+				width: 100%;
+			}
+			#content {
+				display: inline-block;
+			}
+			#sidebar {
+				display: inline-block;
+				background-color: teal;
+				float:right;
+				width: 30%;
+			}
+			#footer {
+				width: 100%;
+				display: block;
+				clear: both;
+				background-color: #eee;
+			}
+		</style>
+		<div id="nav">
+			<h5>This is the nav</h5>
+		</div>
+		<div id="main">
+			<div id="content">
+				<h1>This is a title</h1>
+				<p>This is a paragraph</p>
+				<img src="images/imgres.jpg">
+			</div>
+			<div id="sidebar">
+				<h5>This is the sidebar</h5>
+				<ol>
+					<li>This is the first list item</li>
+					<li>This is the second list item</li>
+					<li>This is the third list item</li>
+					<li>This is the fourth list item</li>
+					<li>This is the fifth list item</li>
+					<li>This is the sixth list item</li>
+				</ol>
+			</div>
+		</div>
+		<div id="footer">
+			<h5>This is the footer</h5>
+		</div>
+	</body>
+</html>
